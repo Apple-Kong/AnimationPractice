@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var show = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, world!")
+                .bold()
+                .foregroundColor(.white)
+            
+        }
+        .padding()
+        .frame(width: show ? 320 : 300, height: show ? 600 : 44)
+        .background(.blue)
+        .cornerRadius(30)
+        .shadow(color: .blue.opacity(0.5), radius: 20)
+        .onTapGesture {
+            withAnimation(.spring()) {
+                show.toggle()
+            }
+        }
     }
 }
 
