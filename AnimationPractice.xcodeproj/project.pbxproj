@@ -11,6 +11,7 @@
 		C06F6951283C695D007B7A95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F6950283C695D007B7A95 /* ContentView.swift */; };
 		C06F6953283C695E007B7A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06F6952283C695E007B7A95 /* Assets.xcassets */; };
 		C06F6956283C695E007B7A95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06F6955283C695E007B7A95 /* Preview Assets.xcassets */; };
+		C06F695F283C6A98007B7A95 /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F695E283C6A98007B7A95 /* ViewTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C06F6950283C695D007B7A95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C06F6952283C695E007B7A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C06F6955283C695E007B7A95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C06F695E283C6A98007B7A95 /* ViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				C06F694D283C695D007B7A95 /* AnimationPractice */,
+				C06F6952283C695E007B7A95 /* Assets.xcassets */,
 				C06F694C283C695D007B7A95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,9 +54,9 @@
 		C06F694D283C695D007B7A95 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C06F695D283C6A73007B7A95 /* View Transition */,
+				C06F695C283C6A65007B7A95 /* Animation State */,
 				C06F694E283C695D007B7A95 /* AnimationPracticeApp.swift */,
-				C06F6950283C695D007B7A95 /* ContentView.swift */,
-				C06F6952283C695E007B7A95 /* Assets.xcassets */,
 				C06F6954283C695E007B7A95 /* Preview Content */,
 			);
 			path = AnimationPractice;
@@ -65,6 +68,22 @@
 				C06F6955283C695E007B7A95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C06F695C283C6A65007B7A95 /* Animation State */ = {
+			isa = PBXGroup;
+			children = (
+				C06F6950283C695D007B7A95 /* ContentView.swift */,
+			);
+			path = "Animation State";
+			sourceTree = "<group>";
+		};
+		C06F695D283C6A73007B7A95 /* View Transition */ = {
+			isa = PBXGroup;
+			children = (
+				C06F695E283C6A98007B7A95 /* ViewTransition.swift */,
+			);
+			path = "View Transition";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06F695F283C6A98007B7A95 /* ViewTransition.swift in Sources */,
 				C06F6951283C695D007B7A95 /* ContentView.swift in Sources */,
 				C06F694F283C695D007B7A95 /* AnimationPracticeApp.swift in Sources */,
 			);

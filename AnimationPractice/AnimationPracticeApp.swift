@@ -11,7 +11,8 @@ import SwiftUI
 struct AnimationPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ViewTransition()
+//            ContentView()
         }
     }
 }
