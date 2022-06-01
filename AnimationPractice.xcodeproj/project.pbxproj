@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05B7FD7284707E9007D169D /* TrasformAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B7FD6284707E9007D169D /* TrasformAnimationView.swift */; };
 		C06F694F283C695D007B7A95 /* AnimationPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F694E283C695D007B7A95 /* AnimationPracticeApp.swift */; };
 		C06F6951283C695D007B7A95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F6950283C695D007B7A95 /* ContentView.swift */; };
 		C06F6953283C695E007B7A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06F6952283C695E007B7A95 /* Assets.xcassets */; };
 		C06F6956283C695E007B7A95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06F6955283C695E007B7A95 /* Preview Assets.xcassets */; };
 		C06F695F283C6A98007B7A95 /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F695E283C6A98007B7A95 /* ViewTransition.swift */; };
+		C06F6962283C7311007B7A95 /* TimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F6961283C7310007B7A95 /* TimingView.swift */; };
+		C0FE4A69283F0EFD00CA1A6F /* PathPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE4A68283F0EFD00CA1A6F /* PathPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C05B7FD6284707E9007D169D /* TrasformAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrasformAnimationView.swift; sourceTree = "<group>"; };
 		C06F694B283C695D007B7A95 /* AnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06F694E283C695D007B7A95 /* AnimationPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPracticeApp.swift; sourceTree = "<group>"; };
 		C06F6950283C695D007B7A95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C06F6952283C695E007B7A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C06F6955283C695E007B7A95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C06F695E283C6A98007B7A95 /* ViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransition.swift; sourceTree = "<group>"; };
+		C06F6961283C7310007B7A95 /* TimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingView.swift; sourceTree = "<group>"; };
+		C0FE4A68283F0EFD00CA1A6F /* PathPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C05B7FD5284707D2007D169D /* Transform Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C05B7FD6284707E9007D169D /* TrasformAnimationView.swift */,
+			);
+			path = "Transform Animation";
+			sourceTree = "<group>";
+		};
 		C06F6942283C695D007B7A95 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +68,9 @@
 		C06F694D283C695D007B7A95 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C05B7FD5284707D2007D169D /* Transform Animation */,
+				C0FE4A67283F0E7C00CA1A6F /* New Group */,
+				C06F6960283C72FA007B7A95 /* Timing */,
 				C06F695D283C6A73007B7A95 /* View Transition */,
 				C06F695C283C6A65007B7A95 /* Animation State */,
 				C06F694E283C695D007B7A95 /* AnimationPracticeApp.swift */,
@@ -84,6 +101,22 @@
 				C06F695E283C6A98007B7A95 /* ViewTransition.swift */,
 			);
 			path = "View Transition";
+			sourceTree = "<group>";
+		};
+		C06F6960283C72FA007B7A95 /* Timing */ = {
+			isa = PBXGroup;
+			children = (
+				C06F6961283C7310007B7A95 /* TimingView.swift */,
+			);
+			path = Timing;
+			sourceTree = "<group>";
+		};
+		C0FE4A67283F0E7C00CA1A6F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE4A68283F0EFD00CA1A6F /* PathPractice.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FE4A69283F0EFD00CA1A6F /* PathPractice.swift in Sources */,
 				C06F695F283C6A98007B7A95 /* ViewTransition.swift in Sources */,
 				C06F6951283C695D007B7A95 /* ContentView.swift in Sources */,
+				C06F6962283C7311007B7A95 /* TimingView.swift in Sources */,
 				C06F694F283C695D007B7A95 /* AnimationPracticeApp.swift in Sources */,
+				C05B7FD7284707E9007D169D /* TrasformAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

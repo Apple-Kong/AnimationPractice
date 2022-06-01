@@ -14,6 +14,9 @@ struct ViewTransition: View {
         ZStack {
             if !show {
                 Text("View transition")
+                    .onDisappear {
+                        print("NOOOO")
+                    }
             } else {
                 RoundedRectangle(cornerRadius: 30)
                     .fill(.blue)
@@ -21,12 +24,8 @@ struct ViewTransition: View {
                     .transition(.scale(scale: 0.1, anchor: .bottomTrailing))
                     .zIndex(1)
                     .onAppear {
-                        print("Wow")
+                        print("HI")
                     }
-                    .onDisappear {
-                        print("")
-                    }
-
             }
         }
         .onTapGesture {
